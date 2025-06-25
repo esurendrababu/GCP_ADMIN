@@ -69,10 +69,4 @@ gcloud compute scp my-ubuntu-vm:/home/username/remote.txt ./ \
   --zone=us-central1-a
 ```
 
----
 
-## 🧠 Bonus Tips
-
-- Use `--tags` or `--metadata` to apply firewall rules or custom configurations.
-- Use `--boot-disk-size` and `--boot-disk-type` for disk customization.
-- Use `--preemptible` to create low-cost, short-term VMs.
